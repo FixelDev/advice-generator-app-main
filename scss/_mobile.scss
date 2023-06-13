@@ -1,0 +1,27 @@
+@media(max-width: 546px)
+{
+    main
+    {  
+        .advice-card
+        {
+            .advice-content
+            {
+                font-size: 0.8rem;
+            }
+
+            .advice-footer
+            {
+
+                .divider-desktop
+                {
+                    display: none;
+                }
+    
+                .divider-mobile
+                {
+                    display: block;
+                }
+            }
+        }
+    }
+}
