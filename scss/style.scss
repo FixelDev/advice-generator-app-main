@@ -39,7 +39,7 @@ main
         .advice-content
         {
             text-align: center;
-            color: #fff;
+            color: $light-cyan;
         }
 
         .advice-footer
@@ -84,6 +84,22 @@ main
                 box-shadow: 0 0 40px rgba($neon-green, 0.7);
             }
         }
+    }
+}
+
+footer
+{
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    color: $light-cyan;
+    text-align: center;
+    a
+    {
+        text-decoration: none;
+        color: $neon-green;
     }
 }
 
